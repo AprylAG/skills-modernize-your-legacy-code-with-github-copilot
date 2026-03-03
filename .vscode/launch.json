@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Account Management System",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/accounting/index.js",
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "cwd": "${workspaceFolder}/src/accounting",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "name": "Account Management System (Watch Mode)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/accounting/index.js",
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "cwd": "${workspaceFolder}/src/accounting",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}
